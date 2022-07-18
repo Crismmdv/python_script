@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piper</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
 </head>
 <body>
-   <h1 style="color:rgb(0, 123, 255)">hola desde html 2</h1> 
+   <h1>hola desde html 2</h1> 
    <!--comentario-->
-   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+   <p class="parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
     Libero beatae voluptas minus velit enim, 
     voluptates unde assumenda nam facilis atque
      totam vel, sapiente non. Natus illum a obcaecati
       vel unde!</p>
     <a href="http://google.cl" 
     target="_blank">google link</a>
-    <img src="LogoSernageomin.png" alt="SNGM" width="300" height="300">
+    <img src="LogoSernageomin.png" > <!--alt="SNGM" width="300" height="300"-->
     <div> 
         <hr>
         <h2>Soy el segundo titulo</h2>
-        <p>
+        <p id="parrafo-especial">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Hic mollitia tempore eius libero iste reprehenderit, 
              repellendus explicabo itaque eum alias vel assumenda culpa
@@ -29,6 +31,12 @@
         </p>
 
     </div>
+    <p class="parrafo">Lorem ipsum dolor, sit amet consectetur 
+        adipisicing elit. Voluptatem maxime quasi
+         alias exercitationem optio. Esse quos, 
+         perspiciatis vitae fugit labore corporis porro
+          amet voluptate! Id pariatur odio totam modi possimus?</p>
 
+          <py-script> print('Now you can!') </py-script>|
 </body>
 </html>
