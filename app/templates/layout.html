@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
+    
+    
+</head>
+<body>
+    {% block body %}
+    {% endblock %}
+   <p>Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit. Nostrum voluptatem odio 
+    tempora cumque. Ipsam fugiat eaque facilis 
+    fuga repellat placeat itaque,
+     harum eligendi amet natus et ex earum esse 
+     vitae?</p>
+    <a href="http://google.cl" 
+    target="_blank">google link</a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/LogoSernageomin.png"> <!--alt="SNGM" width="300" height="300"-->
+    <div> 
+        <hr>
+        <h2>Soy el segundo titulo</h2>
+        <p id="parrafo-especial">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Hic mollitia tempore eius libero iste reprehenderit, 
+             repellendus explicabo itaque eum alias vel assumenda culpa
+             odit ducimus voluptatibus laudantium, velit amet esse?
+        </p>
+
+    </div>
+    <p class="parrafo">Lorem ipsum dolor, sit amet consectetur 
+        adipisicing elit. Voluptatem maxime quasi
+         alias exercitationem optio. Esse quos, 
+         perspiciatis vitae fugit labore corporis porro
+          amet voluptate! Id pariatur odio totam modi possimus?</p>
+
+    
+
+    
+
+    
+    <script src="{{ url_for('static', filename='js/estilos.js') }}"></script>          
+</body>
+</html>

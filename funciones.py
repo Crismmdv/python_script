@@ -1,5 +1,17 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
+import os
+from scipy import stats
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+from sklearn.preprocessing import StandardScaler
+from scipy.cluster import hierarchy
+
+from sklearn.cluster import AgglomerativeClustering
+from funciones import creardf_sc
+
 def func_tilde(x):
     di={'Limari':'Limarí', 'Rio':'Río', 'Fuera':'F.A.E','Campana':'Campaña','Vina':'Viña','Caren':'Carén','quebrada':'Quebrada','Guatulame':'Cogotí'}
     a=x.split(' ')

@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(94, 94, 94);
+    font-family: 'Roboto',sans-serif;
+}
+p{
+    color: white;
+    font-size: 24px;
+}
+h1{
+    color:rgb(168, 210, 255);
+} 
+h1, h2, h3, h4, h5{
+    text-align: center;
+}
+div h2{
+    text-align: left;
+}
+#parrafo-especial{
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+.parrafo{
+    font-style: italic;
+    color: orange;
+}
+a,img{
+    display: block;
+}
+a{
+    margin: 50px 10px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: aqua;
+}
+img{
+    width: 30%;
+    margin: auto;
+}
